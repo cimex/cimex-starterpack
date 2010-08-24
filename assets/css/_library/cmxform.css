@@ -1,0 +1,127 @@
+/**********************************
+
+Use: cmxform template
+Author: Cimex Media Ltd
+
+***********************************/
+
+
+
+/* cimSS alpha forms styles */
+
+form.cmxform ol.inputs-left {
+  float: left;
+}
+
+/* note check this with your grid */
+form.cmxform ol.inputs-wide label {
+  width: 140px;
+
+}
+
+form.cmxform ol label {
+  text-align: right;
+  padding-right: 10px;
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+  vertical-align: baseline;
+}
+
+form.cmxform ol li.input-password input {
+  font-size: 20px;
+  padding: 0 .3em;
+}
+
+form.cmxform li.input-radio label {
+  padding-bottom: 0;
+}
+
+form.cmxform li.input-select select {
+  padding: 0;
+}
+
+form.cmxform li.input-checkbox input {
+  margin-bottom: 1.9em;
+}
+
+form.cmxform li.input-radio input {
+  margin-bottom: 0;
+}
+
+form.cmxform li.input-textarea label {
+  vertical-align: top;
+}
+
+form.cmxform fieldset { 
+  border-top: 1px solid #ccc;
+}
+
+form.cmxform fieldset legend { 
+  border: 1px solid #ccc;
+  padding: 0 10px;
+}
+
+form.cmxform li.input-text input, 
+form.cmxform li.input-select select, 
+form.cmxform li.input-submit button,
+form.cmxform li.input-submit input {
+  margin: 0px 0px 0.3em;
+  padding: 0.3em;
+  line-height: 1.5em;
+}
+
+/* untouched Nick Rigby previous forms - http://www.alistapart.com/articles/prettyaccessibleforms/ */
+
+form.cmxform fieldset { 
+  padding: 10px;
+  margin-bottom: 10px; }
+  
+form.cmxform legend {
+  padding: 0 2px;
+  font-weight: bold;
+  _margin: 0 -7px; /* IE Win */
+  }
+  
+form.cmxform label {
+  display: inline-block;
+  line-height: 1.8;
+  vertical-align: top;
+  }
+  
+form.cmxform fieldset ol {
+  margin: 0;
+  padding: 0;
+  }
+  
+form.cmxform fieldset li {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+  }
+  
+form.cmxform fieldset fieldset {
+  border: none;
+  margin: 3px 0 0;
+  }
+  
+form.cmxform fieldset fieldset legend {
+  padding: 0 0 5px;
+  font-weight: normal;
+  }
+  
+form.cmxform fieldset fieldset label {
+  display: block;
+  width: auto;
+  }
+
+form.cmxform em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+  }
+
+form.cmxform label { width: 120px; } /* Width of labels */
+form.cmxform fieldset fieldset label { margin-left: 123px; } /* Width plus 3 (html space) */
+
+/*\*//*/ form.cmxform legend { display: inline-block; } /* IE Mac legend fix */

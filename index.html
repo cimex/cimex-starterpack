@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1"><![endif]-->
+
+    <title>Cimex starter pack</title>
+
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+
+    <!-- All JavaScript at the bottom, except for.. -->
+    <script type="text/javascript">
+      // Create HTML5 elements if browser doesnt support them
+      (function(B,C){B[C]=B[C].replace(/\bno-js\b/,'js');if(!/*@cc_on!@*/0)return;var e = "abbr article aside audio canvas command datalist details figure figcaption footer header hgroup mark meter nav output progress section summary time video".split(' '),i=e.length;while(i--){document.createElement(e[i])}})(document.documentElement,'className');
+    </script>
+
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+
+    <!-- ideally these should be compressed into one file (Sass import) -->
+    <link rel="stylesheet" href="assets/css/_library/base.css">
+    <link rel="stylesheet" href="assets/css/_library/grid960.css">
+    <link rel="stylesheet" href="assets/css/_library/cmxform.css">
+    <link rel="stylesheet" media="handheld" href="assets/css/_library/handheld.css">
+
+    <link rel="stylesheet" href="assets/css/projectName.css">
+
+    <!--[if gte IE 7]>
+      <link href="/Templates/UI/Layouts/assets/css/_library/win/7.css" media="all" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+
+    <!--[if IE 6]>
+      <link href="/Templates/UI/Layouts/assets/css/_library/win/6.css" media="all" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+
+  </head>
+  <body>
+
+    <div class='container-12 clearfix'> 
+      <div class='grid-12'> 
+        <div class='grid-12 alpha'> 
+          <h1> 
+            CimSS
+            <sup class='turquoise'> 
+              ++
+            </sup> 
+          </h1> 
+        </div> 
+        <div class='grid-6 alpha'> 
+          <p class='large bold'> 
+            A flexible css framework with the aim of achieving a consistent  cross browser visual language which adheres to a strict
+            <a href="http://960.gs/" title="grid">grid</a> 
+            &amp;
+            <a href="http://24ways.org/2006/compose-to-a-vertical-rhythm" title="vertical rhythm">vertical rhythm</a> 
+            .
+          </p> 
+          <p> 
+          Uses <a href="http://htmlboilerplate.com">HTML5boilerplate</a>, and <a href="http://960.gs">960</a>.
+          </p>
+        </div> 
+        <div class='grid-6 omega'> 
+          <h2>Grid overlay bookmarklets</h2>
+          <ul class="bare">
+            <li>
+              <a href="javascript: (function () { $('body').css('background', 'url(assets/images/12_col-8px-baseline.gif) 0 0'); })()">Grid 12_col-8px-baseline</a>
+            </li>
+            <li>
+              <a href="javascript: (function () { $('body').css('background', 'url(assets/images/12_col-9px-baseline.gif) 0 0'); })()">Grid 12_col-8px-baseline</a>
+            </li>
+            <li>
+              <a href="javascript: (function () { $('body').css('background', 'url(assets/images/12_col-14px-baseline.gif) 0 0'); })()">Grid 12_col-8px-baseline</a>
+            </li>
+          </ul>
+        </div> 
+        <div class='grid-4 alpha'> 
+          <h3 class='custom-header'> 
+            01
+            <span> 
+              Typography
+            </span> 
+          </h3> 
+          <p> 
+            <span class='turquoise small block'> 
+              Regular
+            </span> 
+            <span class='uppercase'> 
+              abcdefghijklmnopqrstuvwxyz
+            </span> 
+            abcdefghijklmnopqrstuvwxyz
+            <br /> 
+            1234567890!@£$%^&*()_+
+          </p> 
+          <p class='bold'> 
+            <span class='turquoise small block'> 
+              Bold
+            </span> 
+            <span class='uppercase'> 
+              abcdefghijklmnopqrstuvwxyz
+            </span> 
+            abcdefghijklmnopqrstuvwxyz
+            <br /> 
+            1234567890!@£$%^&*()_+
+          </p> 
+          <p class='italic'> 
+            <span class='turquoise small block'> 
+              Italic
+            </span> 
+            <span class='uppercase'> 
+              abcdefghijklmnopqrstuvwxyz
+            </span> 
+            abcdefghijklmnopqrstuvwxyz
+            <br /> 
+            1234567890!@£$%^&*()_+
+          </p> 
+        </div> 
+        <div class='grid-8 omega'> 
+          <h3 class='custom-header'> 
+            02
+            <span> 
+              Typographic Hierarchy
+            </span> 
+          </h3> 
+          <div class='grid-4 alpha'> 
+            <p class='turquoise small'> 
+              Elements
+            </p> 
+            <h1 class='block'> 
+              Heading One
+              <span class='turquoise normal'> 
+                28px
+              </span> 
+            </h1> 
+            <p class='smaller'> 
+              Hello this is a tester to see how it works
+            </p> 
+            <h2> 
+              Heading Two
+              <span class='turquoise normal'> 
+                20px
+              </span> 
+            </h2> 
+            <h3> 
+              Heading Three
+              <span class='turquoise normal'> 
+                18px
+              </span> 
+            </h3> 
+            <h4> 
+              Heading Four
+              <span class='turquoise normal'> 
+                16px
+              </span> 
+            </h4> 
+            <h5> 
+              Heading Five
+              <span class='turquoise normal'> 
+                14px
+              </span> 
+            </h5> 
+            <p> 
+              Paragraph
+              <span class='turquoise'> 
+                14px
+              </span> 
+            </p> 
+          </div> 
+          <div class='grid-4 omega'> 
+            <p class='turquoise small'> 
+              Classes
+            </p> 
+            <p class='super-large'> 
+              *.super-large
+            </p> 
+            <p class='larger'> 
+              *.larger
+            </p> 
+            <p class='large'> 
+              *.large
+            </p> 
+            <p class='normal'> 
+              *.normal
+            </p> 
+            <p class='small'> 
+              *.small
+            </p> 
+            <p class='smaller'> 
+              *.smaller
+            </p> 
+          </div> 
+        </div> 
+        <div class='grid-12 alpha'> 
+          <h3 class='custom-header'> 
+            03
+            <span class='turquoise'> 
+              Grid Examples with font-size variations
+            </span> 
+          </h3> 
+        </div> 
+        <div class='grid-6 alpha'> 
+          <blockquote class='left'> 
+            Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi.
+          </blockquote> 
+          <p> 
+            Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula egestas tincidunt. Nullam risus magna, ornare vitae varius eget, scelerisque a libero. Morbi eu porttitor ipsum. Nullam lorem nisi, posuere quis volutpat eget, luctus nec massa. 
+          </p> 
+          <p> 
+            Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat. Morbi eu porttitor ipsum. Nullam lorem nisi, posuere quis volutpat eget, luctus nec massa. Pellentesque aliquam. Nullam risus magna, ornare vitae varius eget, scelerisque a libero. Morbi eu porttitor ipsum. Nullam lorem nisi, posuere quis volutpat eget, luctus nec massa. Pellentesque aliquam. Nullam risus magna, ornare vitae varius eget, scelerisque a libero.
+          </p> 
+        </div> 
+        <div class='grid-4'> 
+          <blockquote class='right'> 
+            Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat.
+          </blockquote> 
+          <p class='small'> 
+            Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh. Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula egestas tincidunt. Nullam risus magna, ornare vitae varius eget, scelerisque a libero. Morbi eu porttitor ipsum. Nullam lorem nisi, posuere quis volutpat eget, luctus nec massa.
+          </p> 
+        </div> 
+        <div class='grid-2 omega'> 
+          <p class='smaller'> 
+            Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero.
+          </p> 
+        </div> 
+      </div> 
+
+      <div class="grid-12">
+
+        <h3 class='custom-header'> 
+          04
+          <span class='turquoise'> 
+            Quotes
+          </span> 
+        </h3> 
+
+        <blockquote>
+          <p>I am not one who was born in the possession of knowledge; I am one who is fond of antiquity, and earnest in seeking it there.</p>
+        </blockquote>
+
+        <p><cite><a href="/">Confucius, The Confucian Analects</a></cite>,  (551 BC - 479 BC)</p>
+
+      </div>
+
+      <div class="grid-12 omega">
+        
+        <h3 class='custom-header'> 
+          05
+          <span class='turquoise'> 
+            Lists
+          </span> 
+        </h3> 
+
+        <div class="grid-6 alpha">
+
+          <h4>Unordered list</h4>
+          <ul>
+            <li>List item 01</li>
+            <li>List item 02</li>
+            <li>List item 03
+            <ul>
+              <li>List item level 2</li>
+              <li>List item level 2
+              <ul>
+                <li>List item level 3</li>
+                <li>List item level 3</li>
+              </ul>
+              </li>
+            </ul>
+            </li>
+          </ul>
+
+        </div>
+
+        <div class="grid-6 omega">
+          <h4>Unordered lists bare</h4>
+          <ul class="bare">
+            <li>List item 01</li>
+            <li>List item 02</li>
+            <li>List item 03
+            <ul>
+              <li>List item level 2</li>
+              <li>List item level 2
+              <ul>
+                <li>List item level 3</li>
+                <li>List item level 3</li>
+              </ul>
+              </li>
+            </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="grid-6 alpha">
+          <h4>Definition list</h4> 
+          <dl>
+            <dt>Definition title</dt>
+            <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</dd>
+            <dt>Definition list second title</dt>
+            <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</dd>
+          </dl>
+        </div>
+
+        <div class="grid-6 omega">
+          <h4>Ordered list</h4>
+          <ol>
+            <li>List item</li>
+            <li>List item</li>
+            <li>List item
+            <ol>
+              <li>List item level 2</li>
+              <li>List item level 2
+              <ol>
+                <li>List item level 3</li>
+                <li>List item level 3</li>
+              </ol>
+              </li>
+            </ol>
+            </li>
+          </ol>           
+        </div>
+
+      </div>
+
+      <div class="grid-12 omega">
+
+        <pre><code>
+        body { font:0.8125em/1.618 Arial, sans-serif; 
+          background-color:#fff;  
+          color:#111;
+        }
+        </code></pre>
+
+        <h3 class='custom-header'> 
+          06
+          <span class='turquoise'> 
+            Tables
+          </span> 
+        </h3> 
+        <table summary="Jimi Hendrix albums">
+          <caption>Jimi Hendrix - albums</caption>
+          <thead>
+            <tr>
+              <th>Album</th>
+              <th>Year</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tfoot>
+            <tr>
+              <td>Album</td>
+              <td>Year</td>
+              <td>Price</td>
+            </tr>
+          </tfoot>
+          <tbody>
+            <tr>
+              <td>Are You Experienced </td>
+              <td>1967</td>
+              <td>$10.00</td>
+            </tr>
+            <tr>
+              <td>Axis: Bold as Love</td>
+              <td>1967</td>
+              <td>$12.00</td>
+            </tr>
+            <tr>
+              <td>Electric Ladyland</td>
+              <td>1968</td>
+              <td>$10.00</td>
+            </tr>
+            <tr>
+              <td>Band of Gypsys</td>
+              <td>1970</td>
+              <td>$12.00</td>
+            </tr>
+            </tbody>
+            </table>
+            <h3 class='custom-header'> 
+              07
+              <span class='turquoise'> 
+                "In paragraph" styles
+              </span> 
+            </h3> 
+            <p>
+              I am <a href="http://devkick.com/lab/tripoli/sample.php?abc123">the a tag</a> example<br>
+
+              I am <abbr title="test">the abbr tag</abbr> example<br>
+
+              I am <acronym>the acronym tag</acronym> example<br>
+              I am <b>the b tag</b> example<br>
+              I am <big>the big tag</big> example<br>
+
+              I am <cite>the cite tag</cite> example<br>
+
+              I am <code>the code tag</code> example<br>
+              I am <del>the del tag</del> example<br>
+              I am <dfn>the dfn tag</dfn> example<br>
+
+              I am <em>the em tag</em> example<br>
+
+              I am <font face="verdana">the font tag</font> example<br>
+              I am <i>the i tag</i> example<br>
+              I am <ins>the ins tag</ins> example<br>
+
+              I am <kbd>the kbd tag</kbd> example<br>
+
+              I am <q>the q tag <q>inside</q> a q tag</q> example<br>
+              I am <s>the s tag</s> example<br>
+              I am <samp>the samp tag</samp> example<br>
+
+              I am <small>the small tag</small> example<br>
+              I am <span>the span tag</span> example<br>
+              I am <strike>the strike tag</strike> example<br>
+              I am <strong>the strong tag</strong> example<br>
+
+              I am <sub>the sub tag</sub> example<br>
+              I am <sup>the sup tag</sup> example<br>
+              I am <tt>the tt tag</tt> example<br>
+              I am <var>the var tag</var> example<br>
+
+              I am <u>the u tag</u> example
+            </p>
+
+            <p>This is a &lt;p&gt; with some <code>code</code> inside.</p>
+
+            <address>Address: somewhere, World</address>
+
+            <p>
+              <a href="#">Link</a><br>
+              <strong>&lt;strong&gt;</strong><br>
+              <del>&lt;del&gt; deleted</del><br>
+              <dfn>&lt;dfn&gt; dfn</dfn><br>
+              <em>&lt;em&gt; emphasis</em>
+            </p>
+
+            <h3 class='custom-header'> 
+              08
+              <span class='turquoise'> 
+                Forms
+              </span> 
+            </h3> 
+
+            <form class="cmxform" action="#">
+
+              <fieldset>
+
+                <legend>One of each</legend>
+
+                <ol>
+                  <li class="input-text"><label for="f1">Full name</label>
+                    <input size="39" type="text" id="f1" value="input text" />
+                  </li>
+                  <li class="input-text input-password">
+                    <label for="pw">Password input</label>
+                    <input size="28" type="password" id="pw" value="password" />
+                  </li>
+                  <li class="input-checkbox">
+                    <label for="f3">Checkbox input</label>
+                    <input type="checkbox" id="f3" />
+                  </li>
+                </ol>
+              </fieldset>
+
+              <fieldset>
+                <legend>Columns of checkboxes</legend>
+                <ol class="inputs-left">
+                  <li class="input-checkbox">
+                    <label for="f4">Please Please Me</label>
+                    <input type="checkbox" id="f4" />
+                  </li>
+                  <li class="input-checkbox">
+                    <label for="f5">With the Beatles</label>
+                    <input type="checkbox" id="f5" />
+                  </li>
+                  <li class="input-checkbox">
+                    <label for="f6">The Beatles First</label>
+                    <input type="checkbox" id="f6" />
+                  </li>
+                </ol>
+                <ol class="inputs-left inputs-wide">
+                  <li class="input-checkbox">
+                    <label for="f7">A Hard Day's Night</label>
+                    <input type="checkbox" id="f7" />
+                  </li>
+                  <li class="input-checkbox">
+                    <label for="f8">Beatles For Sale</label>
+                    <input type="checkbox" id="f8" />
+                  </li>
+                  <li class="input-checkbox">
+                    <label for="f9">Help !</label>
+                    <input type="checkbox" id="f9" />
+                  </li>
+                </ol>
+              </fieldset>
+
+              <fieldset>
+                <legend>Row of checkboxes</legend>
+                <ol>
+                  <li class="input-checkbox">
+                    <label for="c1">Checkbox input</label>
+                    <input type="checkbox" id="c1" />
+                    <label for="c2">Checkbox input</label>
+                    <input type="checkbox" id="c2" />
+                    <label for="c3">Checkbox input</label>
+                    <input type="checkbox" id="c3" />
+                    <label for="c4">Checkbox input</label>
+                    <input type="checkbox" id="c4" />
+                  </li>
+                </ol>
+                <ol>
+                  <li class="input-select">
+                    <label for="g4">Select field</label>
+                    <select id="g4">
+                      <option>Option 01</option>
+                      <option>Option 02</option>
+                    </select>
+                  </li>
+                  <li class="input-textarea">
+                    <label for="g5">Textarea</label>
+                    <textarea id="g5" cols="38" rows="5" >Textarea text</textarea>
+                  </li>
+                  <li class="input-submit">
+                    <label for="g6">Input Button</label> 
+                    <input type="button" id="g6" value="button text" />
+                  </li>
+                  <li class="input-submit">
+                    <label for="g6">A real button</label> 
+                    <button type="button">button text</button>
+                  </li>
+                </ol>
+
+              </fieldset>
+
+              <fieldset>
+                <legend>Radio button choice</legend>
+                <ol>
+                   <li class="input-radio">
+                     <label for="radio-choice-1">Choice 1</label>
+                     <input type="radio" name="radio-choice-1" id="radio-choice-1" value="choice-1" />
+                     <label for="radio-choice-2">Choice 2</label>
+                     <input type="radio" name="radio-choice-1" id="radio-choice-2" value="choice-2" />
+                   </li>
+                </ol>
+              </fieldset>
+
+            </form>
+
+          </div><!-- end #body -->
+
+        </div><!-- end container -->
+
+        <script src="assets/js/_library/jquery-1.4.2.min.js"></script>
+        <!-- insert plugins here and ideally compress all these at production -->
+        <script src="assets/js/projectName.js"></script>
+
+        <!--[if lt IE 7 ]>
+          <script src="assets/js/_library/dd_belatedpng.js"></script>
+        <![endif]-->
+  </body>
+</html>

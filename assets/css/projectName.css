@@ -1,0 +1,191 @@
+/**********************************
+
+Use: cmxform template
+Author: Cimex Media Ltd
+
+***********************************/
+
+/* TOOLS * */
+/* colors */
+.turquoise {
+  color: #2bcfd4; }
+
+.cl {
+  clear: both; }
+
+.block {
+  display: block;
+  margin: 0 !important; }
+
+.left {
+  float: left;
+  display: inline; }
+
+.right {
+  float: left;
+  display: inline; }
+
+/* TYPOGRAPHY */
+body {
+	font: normal 1em/1.4 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 1em;
+  color: #2d2d2d;
+  text-align: center;
+  background-color: white; }
+
+input, textarea {
+  font-family: Helvetica, Arial, sans-serif; }
+
+h1, h2, h3, h4, h5, p, ul, ol, table, dl, label, input, textarea, pre, legend, hr, blockquote {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 0 0 1.5em 0; }
+
+sup, sub {
+  font-size: 0.571em;
+  line-height: 2.625em;
+  margin: 0 0 2.625em 0;
+  color: #ffaf23;
+  font-weight: normal; }
+
+sub {
+  vertical-align: sub; }
+
+sup {
+  vertical-align: super; }
+
+hr {
+  height: 1px;
+  border: none;
+  border-top: 1px #cccccc solid;
+  margin: 10px 0px 10px 0px; }
+
+ol, ul, dl {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+ol li, ul li{
+	margin-left: 18px;
+}
+
+ol.bare li, ul.bare li {
+	margin-left: 0;
+	list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #2d2d2d;
+  text-decoration: none;
+  border-bottom: 1px #2bcfd4 dashed; }
+
+blockquote.right {
+  width: 100px;
+  font-size: 0.714em;
+  line-height: 2.1em;
+  margin: 0 0 2.1em 0;
+  font-style: italic;
+  margin-left: 24px;
+  float: right; }
+
+blockquote.left {
+  width: 150px;
+  font-size: 0.714em;
+  line-height: 2.1em;
+  margin: 0 0 2.1em 0;
+  font-style: italic;
+  margin-right: 24px;
+  float: left; }
+
+h1 {
+  font-size: 2em;
+  line-height: 0.75em;
+  margin: 0 0 0.75em 0; }
+
+h2 {
+  font-size: 1.429em;
+  line-height: 1.05em;
+  margin: 0 0 1.05em 0; }
+
+h3 {
+  font-size: 1.286em;
+  line-height: 1.167em;
+  margin: 0 0 1.167em 0; }
+
+h4 {
+  font-size: 1.143em;
+  line-height: 1.313em;
+  margin: 0 0 1.313em 0; }
+
+h5 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 0 0 1.5em 0; }
+
+/* Extras */
+.super-large {
+  font-size: 2em;
+  line-height: 0.75em;
+  margin: 0 0 0.75em 0; }
+
+.larger {
+  font-size: 1.429em;
+  line-height: 1.05em;
+  margin: 0 0 1.05em 0; }
+
+.large {
+  font-size: 1.286em;
+  line-height: 1.167em;
+  margin: 0 0 1.167em 0; }
+
+.small {
+  font-size: 0.857em;
+  line-height: 1.75em;
+  margin: 0 0 1.75em 0; }
+
+.smaller {
+  font-size: 0.714em;
+  line-height: 2.1em;
+  margin: 0 0 2.1em 0; }
+
+.caps {
+  text-transform: uppercase; }
+
+.italic {
+  font-style: italic; }
+
+.bold {
+  font-weight: bold; }
+
+.normal {
+  font-weight: normal; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.lowercase {
+  text-transform: lowercase; }
+
+.custom-header {
+  color: #494949;
+  font-size: 1.143em;
+  line-height: 1.313em;
+  margin: 0 0 1.313em 0;
+  border-bottom: 1px #666666 solid; }
+  .custom-header span {
+    color: #2bcfd4; }
+
+/* Project Specific * */
+#wrapper {
+  text-align: left;
+  width: 900px;
+  margin: 0 auto; }
+
+.container-12 {
+  text-align: left;
+  }
+
+/* EOF */
