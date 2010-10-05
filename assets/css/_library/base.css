@@ -99,10 +99,6 @@ body, select, input, textarea { color:#444; }
 /* www.aestheticallyloyal.com/public/optimize-legibility/ */ 
 h1,h2,h3,h4,h5,h6 { font-weight: bold; text-rendering: optimizeLegibility; }
 
-/* maxvoltar.com/archive/-webkit-font-smoothing */
-html { -webkit-font-smoothing: antialiased; }
-
- 
 /* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
 a:hover, a:active { outline: none; }
 
@@ -144,11 +140,11 @@ label, input[type=button], input[type=submit], button { cursor: pointer; }
 /* These selection declarations have to be separate.
    No text-shadow: twitter.com/miketaylr/status/12228805301 
    Also: hot pink. */
-::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
-::selection { background:#FF5E99; color:#fff; text-shadow: none; } 
+::-moz-selection{ background: #B4B5FE; color:#000; text-shadow: none; }
+::selection { background:#B4B5FE; color:#000; text-shadow: none; } 
 
 /*  j.mp/webkit-tap-highlight-color */
-a:link { -webkit-tap-highlight-color: #FF5E99; } 
+a:link { -webkit-tap-highlight-color: #B4B5FE; } 
 
 
 /* always force a scrollbar in non-IE */
